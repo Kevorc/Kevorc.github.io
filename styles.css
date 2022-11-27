@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23252C;
+    margin: 0;
+    font-family: 'inter', sans serif;    
+}
+
+.everything{
+    width: 317px;
+    margin: auto;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    text-align: center;
+    background-color: #F5F5F5;
+
+}
+
+.header{
+    background-color: #F5F5F5;
+}
+
+.header--photo{
+    background-color: #23252C;
+    margin-bottom: 5px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.header--photo > img {
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+    padding: none;
+}
+
+.header--information > h1{
+    font-weight: 700;
+    color: #2B283A;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.header--information > h3{
+    font-weight: 400;
+    color: #F47D27;
+    font-size: 12.8px;
+    line-height: 15px;
+}
+
+.header--information > p{
+    color: #4A4E74;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.header--buttons{
+    display: flex; 
+    margin-top: 1rem
+}
+
+.proj-button{
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    margin: auto;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+
+}
+
+.email-button > img {
+    width: 25px;
+    height: 20px;
+    margin: auto;
+    
+}
+
+.linkedin-button{
+    background: #297FE5;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    margin: auto;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    color: white
+}
+
+.linkedin-button > img {
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+
+.about{
+    width: 247px;
+    margin: auto;
+    text-align: left;
+}
+
+.about > h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+
+.about > p{
+    margin-top: 0px;
+    color: #4A4E74;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.interests{
+    width: 247px;
+    margin: auto;
+    text-align: left;
+}
+
+.interests > h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+
+.interests > p{
+    margin-top: 0px;
+    color: #4A4E74;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.footer--background{
+    background-color: #23252C;
+
+}
+
+.footer-buttons{
+    background-color: #D5D4D8;
+    display: flex;
+    border: none;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer-buttons > button {
+    border: none;
+    margin: 19px 5px;
+    background-color: #D5D4D8;
+        
+}
+
+.footer-buttons > button > img{
+    width: 25px;
+    height: 25px;
+
+}
